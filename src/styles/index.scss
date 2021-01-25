@@ -1,0 +1,55 @@
+// Variable Declarations
+$breakpoints: (
+  phone: 320px,
+  tablet: 728px,
+  desktop: 1024px,
+);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  // font-family: ***;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.8rem;
+}
+a {
+  text-decoration: none;
+}
+#root {
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+.scrim {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15rem rgba(0, 0, 0, 0.5);
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+// Package Imports
+@import "../../node_modules/include-media/dist/include-media.scss";
+
+// Module Imports

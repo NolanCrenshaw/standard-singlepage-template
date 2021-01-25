@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.scrim {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 15rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15rem rgba(0, 0, 0, 0.5);
+}
+
+.app-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+/*# sourceMappingURL=index.css.map */
