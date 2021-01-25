@@ -2,8 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import TagManager from "react-gtm-module";
 import "./styles/index.css";
 
+// // ~~ Google Tag Manager Init
+// const tagManagerArgs = {
+//   gtmId: "",
+// };
+// TagManager.initialize(tagManagerArgs);
+
+// ~~ Core Render
 ReactDOM.render(
   <React.StrictMode>
     <App />
